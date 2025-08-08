@@ -28,4 +28,16 @@ class Product_model extends CI_Model
     {
         return $this->db->delete('products', ['id' => $id]);
     }
+
+    public function get_product_count()
+    {
+        return $this->db->count_all('products');
+    }
+
+
+    public function get_paginated_products($limit, $start)
+    {
+        $this->db->limit($limit, $start);
+        return $this->db->get('products')->result();
+    }
 }

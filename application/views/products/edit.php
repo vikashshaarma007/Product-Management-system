@@ -9,23 +9,30 @@
 </head>
 
 <body>
-    <div class="navbar navbar-dark bg-dark">
-        <div class="container text-center">
-            <a href="#" class="navbar-brand text-center">Product Management system</a>
-        </div>
-    </div>
-    <div>
-        <h2 class="mt-4 text-center ">Update Product</h2>
-    </div>
+    <?php $this->load->view('layout/header'); ?>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="form-control">
-                    <form method="post">
-                        <div class="form-group">
+                    <div class="text-end">
+                        <a href=" <?= site_url('products'); ?>" class="btn btn-primary mt-4">List</a>
+                    </div>
+
+                    <form method="post" enctype="multipart/form-data">
+                        <div class=" form-group">
                             <label for="">Name:</label>
                             <input type="text" name="name" value="<?= $product->name ?>" class=" form-control"><br>
                         </div>
+                        <div class="form-group">
+                            <label>Product Image</label>
+                            <input type="file" name="image" class="form-control">
+                            <?php if ($product->image): ?>
+                                <p>Current Image:</p>
+                                <img src="<?= base_url('uploads/' . $product->image) ?>" width="100">
+                            <?php endif; ?>
+                        </div>
+
                         <div>
                             <label for="">Description: </label>
                             <textarea name="description" value="<?= $product->description ?> " class="form-control"></textarea><br>
@@ -40,10 +47,11 @@
                         </div>
                     </form>
                 </div>
-                <a href=" <?= site_url('products'); ?>" class="btn btn-secondary form-control mt-4">Back to List</a>
             </div>
+
         </div>
     </div>
 
 
+    <?php $this->load->view('layout/footer'); ?>
 </body>
