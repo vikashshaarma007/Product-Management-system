@@ -10,6 +10,18 @@ This is a CodeIgniter 3 MVC-based web application designed to manage Product dat
 
 This system enables administrators or staff to efficiently manage product-related data in a well-organized, secure, and intuitive manner.</i></p>
 
+✅ Key Highlights
+```sh
+  Built using CodeIgniter 3 Framework
+  Follows MVC Architecture
+  Fully functional CRUD for products
+  User Registration & Login system
+  Image Upload support
+  Pagination for managing large datasets (AJAX optional)
+  Responsive UI with Bootstrap
+  Easy to set up and extend
+```
+
  ## ✨ Features
 ```sh
 ✅ Register / Login (Basic Auth)
