@@ -1,27 +1,26 @@
 <h1 align="center">👨‍💼 Product Management System — Codeigniter MVC Web App 🧮🚀</h1>
-<p align="left"><i>This is a Codeigniter MVC-based web application designed to manage Product data efficiently. The application provides a full suite of CRUD operations (Create, Read, Update, Delete), allowing administrators to maintain employee records through a user-friendly web interface.</i></p>
+<p align="left"><i>🛠️ Product Management System — CodeIgniter 3 (MVC)
+This is a CodeIgniter 3 MVC-based web application designed to manage Product data efficiently. The application provides a full suite of CRUD operations (Create, Read, Update, Delete), allowing administrators to maintain product records through a user-friendly web interface.</i></p>
 <br>
 
 <p align="center"><i>CRUD Operations</i> 👨🏽‍💻 
   <br>
 
-<p align="left"><i>Product Management System is a codeigniter-based MVC web application that provides a Product solution to create, read, update, and delete (CRUD) employee records through a responsive and user-friendly interface. This system allows administrators or HR personnel to efficiently manage employee data in an organized manner.</i></p>
+<p align="left"><i>Product Management System is a CodeIgniter 3-based MVC web application that provides a streamlined solution to Create, Read, Update, and Delete (CRUD) product records through a responsive and user-friendly interface.
 
- ## ✅ Features
+This system enables administrators or staff to efficiently manage product-related data in a well-organized, secure, and intuitive manner.</i></p>
+
+ ## ✨ Features
 ```sh
-
-| Feature                         | Description                                                         |
-| ----------------------------    | ------------------------------------------------------------------- |
-| 👤 **Get All Products**        | View all employees in a responsive tabular format                   |
-| ➕ **Add New Product**         | Add employee details including name, email, role, and profile image |
-| ✏️ **Update product**          | Edit existing employee information easily                           |
-| ❌ **Delete product**          | Remove any employee record with confirmation                        |
-| 🔢 **Pagination Support**      | Paginated list for easy browsing of large data sets                 |
-| 📊 **MySql Integration**       | Stores and manages data using a relational MySQL database      |
-| 🖼️ **Image Upload**            | Upload and display profile pictures with proper storage and naming  |
-| ✅ **Form Validation**         | Robust server-side validation with real-time error feedback         |
-| 🎨 **Clean UI (Bootstrap 5)**  | User-friendly, responsive layout for desktop and mobile devices     |
-
+✅ Register / Login (Basic Auth)
+✅ Add New Product
+✅ View All Products
+✅ Edit / Update Product
+✅ Delete Product
+✅ Image Upload
+✅ Pagination (AJAX optional)
+✅ Bootstrap UI
+✅ Follows MVC structure (Model, View, Controller)
 ```
 <!-- TABLE OF CONTENTS -->
 <details>
