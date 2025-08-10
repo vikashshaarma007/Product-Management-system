@@ -67,7 +67,7 @@ This system enables administrators or staff to efficiently manage product-relate
 
 <!-- GETTING STARTED -->
 ## Demo:
-*Login
+* Login
    <img width="1913" height="858" alt="image" src="https://github.com/user-attachments/assets/0a30aceb-5a7f-4b5e-b4a0-00799f62f02a" />
 * Register
   <img width="1911" height="897" alt="image" src="https://github.com/user-attachments/assets/974d9bb2-f4f5-47b4-bbe9-52ef96c7f0cc" />
